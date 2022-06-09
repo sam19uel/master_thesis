@@ -44,3 +44,12 @@ note: There is a character is this story which I will anonymously call "WSL_Yoda
 
 ### vim
 BUT, that being said, still get used to VIM, as it’s very light on the system, very fast to edit, and is used by almost all Linux users at some point. Might be worth it to also look online for some plugins/themes that might suit you, but definitely worth the effort to get used to using it initially, it is not obvious how to so if you're not familiar with it, please do take the time to have a look and how to use it, at least basically. You will find yourself using it more that you anticipated.
+
+## Installing oxDNA
+Installing oxDNA is relatively straight forward. 
+Before installing make sure you have all the dependencies and here you can double check them: 
+https://dna.physics.ox.ac.uk/index.php/Download_and_Installation
+
+Then installation can be done using the following instructions found here: 
+https://codimd.infn.it/s/nzcFp_9o9#
+
