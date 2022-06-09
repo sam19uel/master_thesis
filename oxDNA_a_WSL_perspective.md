@@ -1,4 +1,4 @@
-# oxDNA: a WSL perspective.
+# oxDNA: a WSL perspective
 #### This document is meant for the casual Linux user that does not want to give up the dark side of Windows for all of the light that Linux could offer. 
 #### In particular, it is meant to be for those planning to use oxDNA on Windows, through the installating of Linux through the Windows Sub System for Linux (WSL) feature developed by Microsoft. 
 
