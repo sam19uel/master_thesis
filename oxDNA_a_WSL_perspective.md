@@ -50,6 +50,6 @@ Installing oxDNA is relatively straight forward.
 Before installing make sure you have all the dependencies and here you can double check them: 
 https://dna.physics.ox.ac.uk/index.php/Download_and_Installation
 
-Then installation can be done using the following instructions found here: 
+Then installation can be done using the following instructions found here, along with a simple tutorial on how to perform a simple LJ simulation: 
 https://codimd.infn.it/s/nzcFp_9o9#
 
