@@ -30,3 +30,16 @@ https://codimd.infn.it/s/UaU9rb0PS
 
 But I guess depending on who is reading this, it will be either too advanced or too simple a starting point for Linux so judge accordingly and don’t worry as there are plenty of resources online for getting familiar enough to start. Just don't get overwhelmed. It's a process and one that you will get familiar with in due time.
 
+## Text Editor of Choice for WSL
+So of course you will need a text editor and this is really a subjective thing. I think based on what experience you had previously and what you’re familiar with, if there is a version available that works well for WSL Linux then go for it, and don’t get lost in the videos of people telling you why a certain text editor is best. 
+
+For me however, the last time I was in the Linux world, I was using Geany for C++ coding but it was only because it was what the Professor was using for the course (https://www.coursera.org/learn/initiation-programmation-cpp), but I didn’t much like the layout (#personal_preference) nothing wrong though. Then was using ATOM for casual text editing but to my greatest “surprise” (#sarcasm), ATOM has a known issue with running on WSL. And it’s not an issue that exists because you run a windows version and a Linux version at the same time, so forget about it and don’t waste time trying to install it, unless it is solved by the time that you're reading this. 
+
+I think the best, if you were like me and needed to choose one to get started with, is VS Code. The advantage is that there is extensive WSL documentation and it’s made to be compatible with WSL (also developed by Micorsoft). Meaning you install it in your windows system and with a specific configuration, you can run in on Windows as well as WSL. It’s the best plug and play solution. The only disadvantage is that if your system is slow, it might eat up a lot of RAM on your machine. 
+Here is the guide to installation. (NOTE: installation is done on the Windows side!)
+https://code.visualstudio.com/docs/remote/wsl
+
+note: There is a character is this story which I will anonymously call "WSL_Yoda", he is a friend that is studying data science and hoped on the WSL train a few months before I did and a lot of the recoomendations and problem fixes I owe to Master WSL_Yoda. 
+
+### vim
+BUT, that being said, still get used to VIM, as it’s very light on the system, very fast to edit, and is used by almost all Linux users at some point. Might be worth it to also look online for some plugins/themes that might suit you, but definitely worth the effort to get used to using it initially, it is not obvious how to so if you're not familiar with it, please do take the time to have a look and how to use it, at least basically. You will find yourself using it more that you anticipated.
