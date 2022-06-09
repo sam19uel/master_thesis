@@ -113,3 +113,38 @@ Some examples are:
  
  Particularly for the `yank` plugin to copy-paste using the universal clipboard: have a research on that on youtube or on the web! 
  
+ ## Installing OPENVPN for accessing the server on INFN:
+Connection to the INFN network in Rome
+
+Note: This is a subtle topic! 
+This document only applies to WSL users or Windows User.
+
+https://www.roma1.infn.it/en/servizi/sicr/vpn.html
+
+So you will find what you need here. 
+Note, you will only be able to access the config file when you have an INFN account. 
+And just to note get in trouble, I will not post it here. 
+But if it works on a first try, that’s awesome! 
+But if not, then there is a high chance that the issue is with the config file and not your machine. 
+one way to test it, and also to get familiar with how openvpn works is to use a open source config available that is used often just to test if it works well. 
+
+https://www.vpnbook.com/
+
+This is one example, but don’t expect your internet to be extremely fast since they probably don’t have a good server to use ratio, but it is just to check if you have internet connectivity and to be sure that the config file is the issue. 
+
+Once that is done, if the error occurs, go through the log of openvpn as it is trying to connect and look for the warnings. On the INFN site, it will say to ignore two warnings and most likely the others are what is causing the problem. So this is what you will need to debug with the config file. 
+
+If you’re not used to doing these things, just do it with your supervisor or someone who has used it before, but you sould fine a line that corresponds to an inconsistency in the config file that should solve the problem. 
+
+In the meantime, ask the SUPPORT to update their config file and in time they should have one that works. 
+Hope it helps and good luck! 
+
+## Using the Server using the SSH Program
+
+Some notes written by Prof. Rovigatti about using SSH (Secure SHell Protocol) for connecting remotely to the server, once you have access to one: https://codimd.infn.it/s/o3HqqmfjQ#
+
+### Coping Files
+Using the `scp` command to copy from your machine to the node, and vice-versa: 
+https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
+
+
