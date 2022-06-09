@@ -17,4 +17,16 @@ Note: At the time of writing this I am using WSL1 but WSL2 is also available. Bu
 
 This is the official documentation for WSL: https://docs.microsoft.com/en-us/windows/wsl/install
 
+### Installing a Linux Distribution
+Note: When choosing a Linux distribution to install, I think the most common is Ubuntu! 
+
+But some important lessons from past experiences:
+ - Perform the installation from the Powershell as indicated on the WSL documentation and do not do it from the Microsoft store. It is a much cleaner way!
+ - Make sure you only have one Linux distribution installed unless you intentionally choose to have more than one otherwise, you can check this with the Powershell command: `wsl -l -v`. Make sure there are no installed distributions before installing the desired one. 
+ - And for Ubuntu: ONLY USE THE LTS (long term support) versions! I once accidently, without knowing better, updated to the developer version of future versions. They are beta versions for the next LTS release. DO NOT DO THIS! It caused a lot of issues with packages and I had to uninstall Linux and perform a clean install from that. 
+
+Here is a rough introduction to Bash functionality written by Prof. Rovigatti, howeve it is worthwhile to look up some simple Bash commands on how to work on Linux: 
+https://codimd.infn.it/s/UaU9rb0PS
+
+But I guess depending on who is reading this, it will be either too advanced or too simple a starting point for Linux so judge accordingly and don’t worry as there are plenty of resources online for getting familiar enough to start. Just don't get overwhelmed. It's a process and one that you will get familiar with in due time.
 
