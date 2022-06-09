@@ -53,3 +53,31 @@ https://dna.physics.ox.ac.uk/index.php/Download_and_Installation
 Then installation can be done using the following instructions found here, along with a simple tutorial on how to perform a simple LJ simulation: 
 https://codimd.infn.it/s/nzcFp_9o9#
 
+
+## Installing Jupyter Notebook for WSL
+
+For a lot of Windows users that code on Python, Jupyter notebook is a common choice. Although it’s not so straight forward to install for WSL especially if you want it to behave like it does for Windows. 
+
+Here are some guidelines. 
+To install it, it is best to install it using pip3. 
+```
+sudo apt update && upgrade 
+sudo apt install python3 python3-pip ipython3
+sudo apt install python3-pip
+```
+
+These commands should install python3 and pip3 which can then be used to install jupyter notebook using the following command: 
+
+```
+pip3 install jupyter
+```
+
+Then to configure it to work like in Windows, do the following as listed in this blog: skip straight to the part about “Configuring Jupyter Notebook” and ignore the part on Windows Terminal, you will not need it and it’s his personal preference. The Ubuntu Terminal will serve you just fine unless you really believe otherwise. 
+
+https://towardsdatascience.com/running-jupyter-notebook-on-wsl-while-using-firefox-on-windows-5a47ebfae4c1
+
+Note: but once you install Jupyter Notebook and have it working, you will soon find it more convenient to learn how to incorporate usage and use VS Code. It works relatively well and it will avoid you having to constantly run/shut down kernels form the terminal and not being able to do anything else while running it. But of course, this is more of a preference thing and something that has to be decided as you go on and get familiar with everything. And another advantage is that you can directly run a "bash Terminal" in VS Code for WSL which makes things much more convenient. 
+
+*Advice:* As convient as Jupyter Notebook might be, you will soon realise that it slowly becomes less convient and you will slowly find that it is better to learn how to code in python and directly compile on the terminal. Depending on how and what you are using it for, there are advantages and disadvantages but my advice is get used to using both ways of coding/running/compiling python code. Both the sof- and hard- core ways have their strengths and weaknesses. 
+
+
