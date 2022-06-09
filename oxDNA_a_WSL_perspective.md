@@ -81,3 +81,35 @@ Note: but once you install Jupyter Notebook and have it working, you will soon f
 *Advice:* As convient as Jupyter Notebook might be, you will soon realise that it slowly becomes less convient and you will slowly find that it is better to learn how to code in python and directly compile on the terminal. Depending on how and what you are using it for, there are advantages and disadvantages but my advice is get used to using both ways of coding/running/compiling python code. Both the sof- and hard- core ways have their strengths and weaknesses. 
 
 
+## Using/Managing Multiple Terminals for WSL
+
+You will quickly realise that you will want more than one terminal at a time to perform tasks, and rightly so! 
+From the advice of Master WSL_Yoda, the safest way to run multiple terminals on WSL is through “tmux”. It is an open-source terminal multiplexer for Unix-like operating systems.
+(people preach way more complicated setups online and it's not worth it to re-configure your system unless you really know what you're doing!) 
+
+Here is the documentation and some initial guides on how and why one should use it: 
+- https://linuxize.com/post/getting-started-with-tmux/
+- https://github.com/tmux/tmux/wiki
+
+
+
+### Using tmux plugins:
+tmux is not perfect, but thankfully there are some plugins we can use to fix some issues it may come with. Here you can have a read about one of the most common tmux plug-in managers and how to install them: https://github.com/tmux-plugins/tpm
+
+To add a plug in, you will need to edit the tmux Config File:  lines to add in ~/.tmux.conf file
+(please understand and research *why* first!)
+
+Some examples are:
+- For scrolling in tmux:
+ ```
+ # Set scrollback buffer to 10000                                                                                                   
+ set -g history-limit 10000 
+```
+- Mouse mode for tmux:
+```
+ # For enabling mouse scrolling                                                                                                     
+ set -g mouse on 
+ ```
+ 
+ Particularly for the `yank` plugin to copy-paste using the universal clipboard: have a research on that on youtube or on the web! 
+ 
