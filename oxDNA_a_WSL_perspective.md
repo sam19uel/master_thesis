@@ -147,4 +147,19 @@ Some notes written by Prof. Rovigatti about using SSH (Secure SHell Protocol) fo
 Using the `scp` command to copy from your machine to the node, and vice-versa: 
 https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
 
+### pyrla
+
+You can download pyrla with "git clone https://github.com/lorenzo-rovigatti/pyrla.git". The actual file to launch is pyrla/src/pyrla.py. You can launch it like this:
+
+python3 /path/to/pyrla.py py.lancia
+
+Or you can make it executable with chmod a+x pyrla/src/pyrla.py and then launch it like this:
+
+/path/to/pyrla py.lancia
+
+### nohup
+
+In general you should always use "nohup" to launch simulations (and/or pyrla) so that the simulations will keep running even if you disconnect:
+
+nohup pyrla.py py.lancia &
 
